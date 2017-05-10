@@ -13,8 +13,15 @@ public class BigSumHRQ4 {
     int length = Integer.valueOf(inputScanner.nextLine());
     String[] input = inputScanner.nextLine().split(" ");
 
+    System.out.println(addThis(input, length));
 
 
     }
-
+    public static Long addThis(String[] inputArray, int length) {
+        Long sum = 0l;
+        for (int i = 0; i<length; i++) {
+            sum += Long.valueOf(inputArray[i]);
+        }
+        return sum;
+    }
 }

@@ -3,7 +3,7 @@ package com.ArcSoftware;
 /**
  * Created by Jake on 4/24/17.
  */
-public class Long {
+public class LongTest {
     //finds the amount of back to back "x" in a string.
     public static int Longx(String x) {
         Integer xCount = 0; //counts amount of x, resets if not an x in a string.
