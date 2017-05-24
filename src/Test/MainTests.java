@@ -1,14 +1,12 @@
-import com.ArcSoftware.*;
+import com.ArcSoftware.BlockCounter;
+import com.ArcSoftware.Weave;
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by Jake on 4/11/17.
  */
-
-import static org.junit.Assert.*;
 
 public class MainTests {
 
@@ -34,7 +32,7 @@ public class MainTests {
         assertEquals(2, BlockCounter.maxBlock("hoopla"));
         assertEquals(3, BlockCounter.maxBlock("abbCCCddBBxx"));
         assertEquals(2, BlockCounter.maxBlock("mississippi"));
-        assertEquals(1,BlockCounter.maxBlock("antidisestablishmentarianism"));
+        assertEquals(1, BlockCounter.maxBlock("antidisestablishmentarianism"));
     }
     @Test
     public void testweavetester() {
