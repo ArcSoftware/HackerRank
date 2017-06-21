@@ -1,19 +1,17 @@
 package com.ArcSoftware;
 
-import java.util.ArrayList;
+import java.time.Instant;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
-import java.util.Arrays;
-
-import static com.sun.tools.corba.se.idl.InterfaceState.Public;
 
 public class Main {
     public static Scanner inputScanner = new Scanner(System.in);
 
 
-    public static void main(String[] args) {
-
-
-//        System.out.println(TitleCase.titleWordUtil(inputScanner);
+    public static void main(String[] args) throws InterruptedException {
+        String time = Instant.now().atZone(ZoneId.of("UTC-4")).format(DateTimeFormatter.ISO_LOCAL_DATE_TIME);
+        System.out.println(time);
     }
 }
 
