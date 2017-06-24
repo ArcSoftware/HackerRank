@@ -33,16 +33,23 @@ public class ArraysHRDS1 {
     public static void main(String[] args) {
         Scanner inputScanner = new Scanner(System.in);
         int length = Integer.valueOf(inputScanner.nextLine());
-        String input = inputScanner.nextLine();
-
-        //below tests out but doesn't pass tests on website for some reason...
         ArrayList reversed = new ArrayList<>();
-        for (int i = 0; i < input.length(); i++) {
-            reversed.add(input.charAt(i));
+
+        for (int i = 0;i < length;i++) {
+            reversed.add(inputScanner.next());
         }
+
         Collections.reverse(reversed);
-        for (int i = 0; i < reversed.size(); i++) {
-            System.out.print(reversed.get(i));
-        }
+
+        System.out.println(String.join(" ", reversed));
+
+        //hackier way to do it.. not protected by generics
+//        for (int i = 0; i < input.length(); i++) {
+//            reversed.add(input.charAt(i));
+//        }
+//        Collections.reverse(reversed);
+//        for (int i = 0; i < reversed.size(); i++) {
+//            System.out.print(reversed.get(i));
+//        }
     }
 }

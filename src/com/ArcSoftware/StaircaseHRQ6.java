@@ -42,3 +42,11 @@ public class StaircaseHRQ6 {
 }
 //Completed the algorithm with this, probably not the best way to do it though. Would want to revisit this
 //using recursion or String Builder.
+//Ben's solution:
+//Scanner in = new Scanner(System.in);
+//
+//    int copies = in.nextInt();
+//
+//        for (int i = 1;i <= copies;i++) {
+//                System.out.printf("%" + copies + "s\n", String.join("", Collections.nCopies(i, "#")));
+//                }
