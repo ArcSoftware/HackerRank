@@ -35,8 +35,6 @@ public class ArraysHRDS1 {
         int length = Integer.valueOf(inputScanner.nextLine());
         String input = inputScanner.nextLine();
 
-
-
         //below tests out but doesn't pass tests on website for some reason...
         ArrayList reversed = new ArrayList<>();
         for (int i = 0; i < input.length(); i++) {
