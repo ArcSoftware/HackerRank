@@ -50,3 +50,10 @@ public class StaircaseHRQ6 {
 //        for (int i = 1;i <= copies;i++) {
 //                System.out.printf("%" + copies + "s\n", String.join("", Collections.nCopies(i, "#")));
 //                }
+
+//      __________________________________________
+//        Collections.nCopies(3, “#”) will result in a collection with three elements
+//        each is “#”
+
+//  *** Print f and join together work for spacing, see the following:
+//       System.out.printf("%5s", "22");

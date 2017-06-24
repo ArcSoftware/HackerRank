@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af953c09-52f2-4971-a872-c83e448f100b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/com/ArcSoftware/ArraysHRDS1.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/com/ArcSoftware/ArraysHRDS1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ArcSoftware/ArraysHRDS1.java" afterPath="$PROJECT_DIR$/src/com/ArcSoftware/ArraysHRDS1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ArcSoftware/StaircaseHRQ6.java" afterPath="$PROJECT_DIR$/src/com/ArcSoftware/StaircaseHRQ6.java" />
     </list>
@@ -69,8 +71,8 @@
       <file leaf-file-name="StaircaseHRQ6.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ArcSoftware/StaircaseHRQ6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="51" column="19" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="51" selection-end-column="19" />
+            <state relative-caret-position="620">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +83,8 @@
       <file leaf-file-name="ArraysHRDS1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ArcSoftware/ArraysHRDS1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="247">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1094,8 +1096,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ArcSoftware/StaircaseHRQ6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="51" column="19" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="51" selection-end-column="19" />
+        <state relative-caret-position="620">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1104,8 +1106,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ArcSoftware/ArraysHRDS1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="247">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
