@@ -1,6 +1,8 @@
 package com.ArcSoftware;
 
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by Jake on 6/23/17.
@@ -44,6 +46,19 @@ import java.util.Scanner;
 public class CamelCase {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        String s = in.next();
+        String s = in.nextLine();
+        System.out.println(camel(s));
+    }
+
+    public static int camel(String word) {
+        Pattern p = Pattern.compile("([A-Z])");
+        Matcher m = p.matcher(word);
+        Integer uppers = word != "" ? 1 : 0;
+
+        while (m.find()) {
+           uppers++;
+        }
+
+        return uppers;
     }
 }
