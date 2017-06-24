@@ -14,10 +14,7 @@ public class Desireable {
 
         while (m.find()) {
             int matchLength = m.group(0).length();
-
-            if (matchLength > maxLength) {
-                maxLength = matchLength;
-            }
+            maxLength = (matchLength > maxLength) ? matchLength : maxLength;
         }
 
         return maxLength;
