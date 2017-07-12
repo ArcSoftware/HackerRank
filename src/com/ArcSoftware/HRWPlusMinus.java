@@ -30,7 +30,14 @@ package com.ArcSoftware;
 //        There are  positive numbers,  negative numbers, and  zero in the array.
 //        The respective fractions of positive numbers, negative numbers and zeroes are ,  and , respectively.
 
-public class HRWPlusMinus {
-    
+import java.util.Scanner;
 
+public class HRWPlusMinus {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int length = Integer.valueOf(in.nextLine());
+        String[] input = in.nextLine().split(" ");
+
+        
+    }
 }
