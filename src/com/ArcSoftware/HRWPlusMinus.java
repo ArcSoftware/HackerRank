@@ -37,20 +37,34 @@ public class HRWPlusMinus {
         Scanner in = new Scanner(System.in);
         int length = Integer.valueOf(in.nextLine());
         String[] input = in.nextLine().split(" ");
-            solve(length, input);
+            solveWOF(length, input);
         }
 
-        //solve with for loop
-        public static void solve(int length, String[] input) {
-            double pos = 0;
-            double neg = 0;
-            double zero = 0;
-            for (int i = 0; i < length; i++){
-                int test = Integer.valueOf(input[i]);
-                if (test > 0) {pos++;}
-                else if (test < 0) {neg++;}
-                else {zero++;}
+
+        //solve with conditionals
+        public static void solveWOF(Integer length, String[] input) {
+            double pos = 0, neg = 0, zero = 0;
+            for (int i=0; i<length; i++) {
+                Double test = Double.valueOf(input[i]);
+                pos += (test > 0) ? 1:0;
+                neg += (test < 0) ? 1:0;
+                zero += (test == 0) ? 1:0;
             }
             System.out.printf("%.6f \n%.6f \n%.6f", (pos/length), (neg/length), (zero/length));
         }
+
+
+//    //solve with for loop
+//    public static void solve(int length, String[] input) {
+//        double pos = 0;
+//        double neg = 0;
+//        double zero = 0;
+//        for (int i = 0; i < length; i++){
+//            int test = Integer.valueOf(input[i]);
+//            if (test > 0) {pos++;}
+//            else if (test < 0) {neg++;}
+//            else {zero++;}
+//        }
+//        System.out.printf("%.6f \n%.6f \n%.6f", (pos/length), (neg/length), (zero/length));
+//    }
 }
