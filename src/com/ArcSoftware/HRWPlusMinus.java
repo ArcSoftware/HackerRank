@@ -37,7 +37,20 @@ public class HRWPlusMinus {
         Scanner in = new Scanner(System.in);
         int length = Integer.valueOf(in.nextLine());
         String[] input = in.nextLine().split(" ");
+            solve(length, input);
+        }
 
-        
-    }
+        //solve with for loop
+        public static void solve(int length, String[] input) {
+            double pos = 0;
+            double neg = 0;
+            double zero = 0;
+            for (int i = 0; i < length; i++){
+                int test = Integer.valueOf(input[i]);
+                if (test > 0) {pos++;}
+                else if (test < 0) {neg++;}
+                else {zero++;}
+            }
+            System.out.printf("%.6f \n%.6f \n%.6f", (pos/length), (neg/length), (zero/length));
+        }
 }
