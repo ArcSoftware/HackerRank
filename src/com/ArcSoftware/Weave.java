@@ -1,7 +1,5 @@
 package com.ArcSoftware;
 
-import java.util.ArrayList;
-
 /**
  * Created by Jake on 5/3/17.
  */
@@ -13,10 +11,7 @@ public class Weave {
             if(i % count == 0) {
                 sb.setCharAt(i, 'x');
             }
-
         }
-
-
         return sb.toString();
     }
 }

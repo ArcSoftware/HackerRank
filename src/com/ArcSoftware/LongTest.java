@@ -16,14 +16,11 @@ public class LongTest {
                 // increment xcount
                 xCount++;
                 //if xCount > max, update max
-                if (xCount > max) {
-                    max = xCount;
-                }
+                max = (xCount > max)? xCount:max;
             }
             else {
                 xCount = 0;
             }
-
         }
         return max;
     }
