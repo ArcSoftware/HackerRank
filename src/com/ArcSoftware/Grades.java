@@ -6,7 +6,7 @@ public class Grades {
     static int[] solve(int[] grades){
         int[] rounded = new int[grades.length];
         for (int i = 0; i < grades.length; i++) {
-            if (grades[i] > 40 && ((grades[i]+ 5) % 5) > 2){
+            if (grades[i] >= 38 && (grades[i] % 5) > 2){
                 rounded[i] = grades [i] + (5 - (grades[i] % 5));
             } else {
                 rounded[i] = grades [i];
